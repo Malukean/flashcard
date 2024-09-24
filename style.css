@@ -1,9 +1,9 @@
 :root{
     --caixa-cor-frente: #B0E0E6;
-    --caixa-cor-verso:  #B0E0E6;
-    --fundo:  #B0E0E6;
+    --caixa-cor-verso:  #792529;
+    --fundo:  #580300;
     --preto:  #B0E0E6;
-    --branco:  #B0E0E6;
+    --branco:  #248794;
     --cor-texto-destaque:  #3eb4c3;
 }
 
@@ -21,6 +21,7 @@ footer{
     text-align: center ;
 }
   
+#container
 /*   tem mais coisa aq   */
 
 .cartao_conteudo{
@@ -35,4 +36,9 @@ footer{
     margin: 0.5rem;
 }
 
+.cartao_conteudo p{
+    margin-top: 1rem;
+    padding: 2rem;
+    padding-top: 3rem;
+}
 
