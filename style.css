@@ -1,0 +1,38 @@
+:root{
+    --caixa-cor-frente: #B0E0E6;
+    --caixa-cor-verso:  #B0E0E6;
+    --fundo:  #B0E0E6;
+    --preto:  #B0E0E6;
+    --branco:  #B0E0E6;
+    --cor-texto-destaque:  #3eb4c3;
+}
+
+body{
+    background-color:aliceblue;
+    margin: 0 ;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color:aquamarine ;
+    color:var(--branco) ;
+    width: 100% ;
+    text-align: center ;
+}
+  
+/*   tem mais coisa aq   */
+
+.cartao_conteudo{
+    background-color: var(--caixa-cor-frente);
+    text-align: center;
+  }
+
+.cartao_conteudo h3{
+    border: 1px solid var(--cor-texto-destaque);
+    margin: 0.5rem;
+    position: absolute;
+    margin: 0.5rem;
+}
+
+
