@@ -1,3 +1,28 @@
-.cartao_conteudo {
-    background-color: blueviolet;
+header{
+    background-color: dodgerblue;
+    text-align: center;
+    font-size: 1.4vw;
+    padding: 10px;
+}
+
+.cartao__conteudo{
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px rgb(4, 16, 96);
+    transition: transform 0.2s;
+    background-color: rgb(134, 150, 206);
+    margin: 20px 10px;
+}
+
+.cartao__conteudo:hover{
+    transform: scale(1.01);
+}
+
+.cartao__conteudo__resposta{
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(90, 90, 254);
+    color: white;
 }
